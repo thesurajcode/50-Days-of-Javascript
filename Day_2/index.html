@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <H2>Simple Calculator</H2>
+        <p id = store></p>
+    </head>
+    <body>
+        
+        <label for="x">Value of X</label>
+        <input type="Number"  id="x" placeholder="value of X">
+
+        <label for="y">Value of Y</label>
+        <input type="Number"  id="y" placeholder="value of Y">
+
+        <label for="Operation">Value of Y</label>
+        <input type="Number"  id="Operation" placeholder="Operation">
+
+        <button onclick="displayGreeting(store)">Final Value</button>
+
+
+        <script>
+
+            const x =  "x";
+            const Y =  "y";
+
+            if(Operation === "x"){
+                value = x*y;
+                consol.log(value);
+                store = "p";
+                document.getElementsById("p").innerHTML=value;
+            }
+            
+            if(Operation === "+"){
+                value = x+y;
+                consol.log(value);
+                store = "q";
+                document.getElementsById("q").innerHTML=value;
+            }
+
+            if(Operation === "+"){
+                value = x-y;
+                consol.log(value);
+                store = "r";
+                document.getElementsById("r").innerHTML=value;
+            }
+
+            if(Operation === "+"){
+                value = X+Y;
+                consol.log(value);
+                store = "s";
+                document.getElementsById("s").innerHTML=value;
+            }
+
+        </script>
+
+    </body>
+</html>
